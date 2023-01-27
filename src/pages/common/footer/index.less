@@ -1,0 +1,46 @@
+@import "~@/assets/global.less";
+footer {
+  background-color: @blue;
+  padding: 1.5rem 0;
+  .main-view {
+    display: flex;
+    align-items: center;
+    .logo {
+      height: 5rem;
+      padding-right: 3rem;
+      img {
+        height: 100%;
+      }
+    }
+    .contact{
+      color: #fff;
+
+      h2.title{
+        font-size: 1.4rem;
+        border-bottom: 2px solid #fff;
+        margin-bottom: 1rem;
+        
+      }
+      .address{
+        font-size: .8rem;
+        margin-bottom: 1rem;
+        padding-right: 2.5rem;
+        white-space: nowrap;
+      }
+      a.contact-item{
+        color: @orange;
+        display: block;
+        font-size: 0.8rem;
+        font-weight: bold;
+      }
+    }
+    .copyright{
+      color: #fff;
+      justify-self: flex-end;
+      text-align: right;
+      font-size: .8rem;
+      flex: 1 1 auto;
+    }
+  }
+}
+@import "./768.less" screen and (max-width:768px);

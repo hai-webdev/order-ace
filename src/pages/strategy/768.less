@@ -1,0 +1,36 @@
+section.text-container {
+  .main-view {
+    display: flex;
+    flex-direction: column;
+    .title {
+      color: @blue;
+      font-size: 1rem;
+      font-weight: bold;
+      margin-bottom: .2rem;
+    }
+    .line {
+      height: 2px;
+      margin-bottom: .2rem;
+    }
+    .info {
+      font-size: .8rem;
+      margin-bottom: 0.5rem;
+    }
+    .content {
+      margin: .5rem 0;
+      padding: .5rem;
+      ul.cont-list {
+        li.cont-item {
+          margin-bottom: .5rem;
+          position: relative;
+          padding-left: 1em;
+          font-size: .8rem;
+          &::before {
+            width: 0.4em;
+            height: 0.4em;
+          }
+        }
+      }
+    }
+  }
+}

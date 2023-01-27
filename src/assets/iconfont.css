@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('/public/fonts/SourceSansPro.eot');
+    src: url('/public/fonts/SourceSansPro.woff') format('woff'),
+        url('/public/fonts/SourceSansPro.ttf') format('truetype'),
+        url('/public/fonts/SourceSansPro.svg') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceSansPro-Regular';
+    src: url('/public/fonts/SourceSansPro-Regular.eot');
+    src: url('/public/fonts/SourceSansPro-Regular.woff') format('woff'),
+        url('/public/fonts/SourceSansPro-Regular.ttf') format('truetype'),
+        url('/public/fonts/SourceSansPro-Regular.svg') format('svg');
+}

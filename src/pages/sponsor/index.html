@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- 引入公共页头 -->
+  <%= require("html-loader!../common/header/index.html") %>
+    <section class="banner-container">
+      <img src="/public/img/sponsor/banner.jpg" alt="">
+    </section>
+    <section class="sponsor-container">
+      <div class="main-view center12">
+        <ul class="character-category-list">
+          <li class="character-category-item">
+            <div class="title">
+              THE SPONSOR
+            </div>
+            <ul class="character-list">
+              <li class="character-item">
+                <div class="img">
+                <div class="img-box" style="background-image: url(/public/img/sponsor/Jason-Wong.png);"></div>
+                </div>
+                <div class="fullname">Jason Wong</div>
+                <a href="javascript:;" data-id="1" class="read">READ PROFILE</a>
+              </li>
+            </ul>
+          </li>
+          <li class="character-category-item">
+            <div class="title w100">
+              THE ADVISORS
+            </div>
+            <ul class="character-list">
+              <li class="character-item">
+                <div class="img" >
+                  <div class="img-box" style="background-image: url(/public/img/sponsor/Jason-Ma.png);"></div>
+                </div>
+                <div class="fullname">Jason Ma</div>
+                <a href="javascript:;" class="read">READ PROFILE</a>
+              </li>
+              <li class="character-item">
+                <div class="img">
+                  <div class="img-box" style="background-image: url(/public/img/sponsor/Henry-Liu.png);"></div>
+                </div>
+                <div class="fullname">Henry Liu</div>
+                <a href="javascript:;" class="read">READ PROFILE</a>
+              </li>
+              <li class="character-item">
+                <div class="img">
+                  <div class="img-box" style="background-image: url(/public/img/sponsor/JACK-YANG.png);"></div>
+                </div>
+                <div class="fullname">Jack Yang</div>
+                <a href="javascript:;" class="read">READ PROFILE</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="popup-container">
+      <div class="popup-mask"></div>
+      <div class="popup-view">
+        <div class="text">
+        </div>
+        <a href="javascript:;" class="back close">BACK</a>
+      </div>
+    </section>
+    <!-- 引入公共页尾 -->
+    <%= require("html-loader!../common/footer/index.html") %>
+</body>
+
+</html>
